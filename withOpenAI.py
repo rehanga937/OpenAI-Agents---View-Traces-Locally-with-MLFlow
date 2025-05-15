@@ -9,6 +9,11 @@ from agents import Agent, Runner, set_default_openai_client, OpenAIChatCompletio
 from openai import AsyncOpenAI
 
 
+# artifact folders
+os.makedirs("azuretraces", exist_ok=True)
+os.makedirs("mlartifacts", exist_ok=True)
+os.makedirs("mlruns", exist_ok=True)
+
 openai_client = AsyncOpenAI(api_key=os.getenv("openai_openai_key"))
 set_default_openai_client(openai_client)
 
