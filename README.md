@@ -1,6 +1,8 @@
 # About
 This project demos the usage of MLFlow for tracing OpenAI Agents when using Azure OpenAI, and viewing the traces **completely locally** (without relying on https://platform.openai.com/traces or any other online service).
 
+The agents example was taken from MLFlow's documentation - https://mlflow.org/docs/latest/tracing/integrations/openai-agent#basic-example
+
 There're 2 files:
 - withOpenAI.py - I didn't actively pursue this as my main target was Azure OpenAI
 - withAzureOpenAI.py
