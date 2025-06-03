@@ -29,8 +29,8 @@ Run withAzureOpenAI.py in another terminal. This will ask 2 questions from the a
 The trace can then be viewed on the local mlflow UI server similar to how traces are displayed on OpenAI's trace portal.
 
 The experiments view - you may have to switch to a different part within the UI or refresh it a bit for stuff to show up.
-![Experiements View on MLFlow UI](https://github.com/rehanga937/OpenAI-Agents---View-Traces-Locally-with-MLFlow/blob/main/images/experiments-traces.png)
+![Experiements View on MLFlow UI](images/experiments-traces.png)
 
 Viewing the trace:
-![Viewing the Trace](https://github.com/rehanga937/OpenAI-Agents---View-Traces-Locally-with-MLFlow/blob/main/images/trace1.png)
+![Viewing the Trace](images/trace1.png)
 
